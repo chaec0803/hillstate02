@@ -1,0 +1,50 @@
+.box {
+    padding: 66px 70px 100px 70px;
+    background-color: #f4efe4;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.num {
+    font-size: 60px;
+    color: #7d1919;
+}
+
+.premium {
+    font-size: 16px;
+    color: #7d1919;
+}
+
+.title {
+    font-size: 32px;
+    color: #000000;
+}
+
+.description {
+    font-size: 20px;
+    color: #777777;
+}
+
+.right {
+    width: 1px;
+    height: 50px;
+    position: relative;
+}
+
+.right .back {
+    transform: translate(-12px, -15px);
+}
+
+.right img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-50%, 0);
+}
