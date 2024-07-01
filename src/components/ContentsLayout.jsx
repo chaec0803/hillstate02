@@ -1,7 +1,7 @@
-import styles from './Layout.module.css';
+import styles from './ContentsLayout.module.css';
 
-function Layout({ children }) {
+function ContentsLayout({ children }) {
   return <div className={styles.layout}>{children}</div>;
 }
 
-export default Layout;
+export default ContentsLayout;

@@ -1,15 +1,15 @@
 import PARCEL_INFO from 'const/pacelInfo';
-import ParcelInfo from 'components/parcel/ParcelInfo';
-import styles from './ParcelInfoContainer.module.css';
+import PremiumInfo from 'components/parcel/PremiumInfo';
+import styles from './PremiumInfoContainer.module.css';
 
-function ParcelInfoContainer() {
+function PremiumInfoContainer() {
   return (
     <div className={styles.box}>
       {PARCEL_INFO.map((info) => (
-        <ParcelInfo key={info.num} info={info} />
+        <PremiumInfo key={info.num} info={info} />
       ))}
     </div>
   );
 }
 
-export default ParcelInfoContainer;
+export default PremiumInfoContainer;

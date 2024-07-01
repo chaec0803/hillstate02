@@ -19,7 +19,6 @@ function ImageSlider() {
     fade: true,
   };
   return (
-    // eslint-disable-next-line react/jsx-props-no-spreading
     <Slider {...settings}>
       <div className={styles.main_visual}>
         <img src={Visual1} alt="img1" className={styles.image} />

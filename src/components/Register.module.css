@@ -1,0 +1,69 @@
+.register {
+    margin-top: 200px;
+    display: flex;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    padding: 20px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.register h3 {
+    white-space: nowrap;
+}
+
+.register .input_box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.register .input_box .input {
+    display: flex;
+    gap: 10px;
+}
+
+.register .input_box .input input {
+    width: 300px;
+    border: 1px solid gray;
+    padding: 20px 5px;
+}
+
+.register .input_box .input input:last-of-type {
+    width: 500px;
+}
+
+.register .register_btn {
+    white-space: nowrap;
+    color: #ffffff;
+    padding: 20px 60px;
+    border-radius: 30px;
+    font-size: 25px;
+    background-color: #7d1919;
+}
+
+.register .check {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.register .check > p {
+    color: #777777;
+}
+
+.register .check > p > span {
+    color: #777777;
+    border-bottom: 1px solid #777777;
+    cursor: pointer;
+}
+
+.register .check .check_box {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #7d1919;
+    appearance: auto;
+}

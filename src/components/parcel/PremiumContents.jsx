@@ -1,14 +1,14 @@
 import ContentsLayout from 'components/ContentsLayout';
-import Title from 'components/TItle';
-import ParcelInfoContainer from 'components/parcel/ParcelInfoContainer';
+import Title from 'components/Title';
+import PremiumInfoContainer from 'components/parcel/PremiumInfoContainer';
 
-function ParcelContents() {
+function PremiumContents() {
   return (
     <ContentsLayout>
       <Title firstDepth="분양안내" secondDepth="프리미엄" />
-      <ParcelInfoContainer />
+      <PremiumInfoContainer />
     </ContentsLayout>
   );
 }
 
-export default ParcelContents;
+export default PremiumContents;

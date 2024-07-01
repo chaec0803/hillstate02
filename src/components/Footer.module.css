@@ -1,0 +1,29 @@
+.footer {
+    padding: 50px 300px;
+    background-color: #08213f;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .left {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.footer .right {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer .right p:first-of-type {
+    font-size: 20px;
+}
+
+.footer .right p {
+    font-size: 30px;
+}

@@ -1,0 +1,18 @@
+.space {
+    display: flex;
+    font-family: GmarketSansMedium;
+    color: #777777;
+    font-size: 18px;
+    border-bottom: 1px solid #000000;
+}
+
+.space p {
+    padding: 33px 30px;
+    cursor: pointer;
+}
+
+.space p.active {
+    font-family: GmarketSansBold;
+    color: #000;
+    border-bottom: 2px solid #000;
+}

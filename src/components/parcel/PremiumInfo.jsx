@@ -1,7 +1,7 @@
 import bg from 'assets/images/premium_background.svg';
-import styles from './ParcelInfo.module.css';
+import styles from './PremiumInfo.module.css';
 
-function ParcelInfo({ info }) {
+function PremiumInfo({ info }) {
   return (
     <div className={styles.box}>
       <div className={styles.left}>
@@ -21,4 +21,4 @@ function ParcelInfo({ info }) {
   );
 }
 
-export default ParcelInfo;
+export default PremiumInfo;

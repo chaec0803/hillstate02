@@ -1,8 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Layout from 'components/Layout';
+import Navigator from 'components/Navigator';
+import BasicContents from 'components/basic/BasicContents';
 
-function Setting() {
-  return <Link to="/">To Home</Link>;
+function Basic() {
+  return (
+    <Layout>
+      <Navigator />
+      <BasicContents />
+    </Layout>
+  );
 }
 
-export default Setting;
+export default Basic;

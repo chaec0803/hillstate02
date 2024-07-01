@@ -1,0 +1,11 @@
+.caution {
+    margin-top: 100px;
+    padding: 30px;
+    background-color: #7d1919;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}

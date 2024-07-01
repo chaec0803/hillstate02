@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="428.204" height="68" viewBox="0 0 428.204 68">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #961e1e;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="사각형_3771" data-name="사각형 3771" class="cls-1" width="428.203" height="68"/>
+    </clipPath>
+  </defs>
+  <g id="ico-symbol-logo" transform="translate(0 0)">
+    <path id="패스_13895" data-name="패스 13895" class="cls-1" d="M35.781,1.089V27.21H12.5V1.089H0V66.25H12.5V37.112H35.781V66.25H48.37V1.089Z" transform="translate(0 0.331)"/>
+    <rect id="사각형_3770" data-name="사각형 3770" class="cls-1" width="12.494" height="65.16" transform="translate(63.348 1.42)"/>
+    <path id="패스_13896" data-name="패스 13896" class="cls-1" d="M82.064,56.066h26.219l-1.42,10.184H69.569V1.089H82.064Z" transform="translate(20.824 0.331)"/>
+    <path id="패스_13897" data-name="패스 13897" class="cls-1" d="M118.838,56.066h26.219l-1.42,10.184H106.344V1.089h12.494Z" transform="translate(31.832 0.331)"/>
+    <g id="그룹_8312" data-name="그룹 8312" transform="translate(0 0)">
+      <g id="그룹_8311" data-name="그룹 8311" class="cls-2">
+        <path id="패스_13898" data-name="패스 13898" class="cls-1" d="M187.322,8.017l-6.135,7.073c-4.718-3.867-9.246-5.564-14.626-5.564-5.85,0-10.1,2.64-10.1,7.733,0,4.716,2.549,6.79,13.4,10.186,11.419,3.584,19.345,8.3,19.345,20.56C189.21,59.7,180.056,68,164.486,68c-10.38,0-18.118-3.678-23.5-8.96l6.415-7.167c4.813,4.054,10,6.507,16.8,6.507,6.983,0,11.985-3.4,11.985-9.714,0-5.469-2.737-7.922-12.928-11.034-13.682-4.244-19.627-9.714-19.627-19.617C143.632,7.168,152.975,0,165.807,0c9.531,0,15.854,2.829,21.516,8.017" transform="translate(42.259 0)"/>
+        <path id="패스_13899" data-name="패스 13899" class="cls-1" d="M229.724,10.992H212.739V66.26H200.188V10.992H182.636v-9.9h48.408Z" transform="translate(54.741 0.325)"/>
+        <path id="패스_13900" data-name="패스 13900" class="cls-1" d="M254.68,51.17H233.071l-4.058,15.09H216.085L236.374,1.089h15.381L271.949,66.26h-13.21Zm-2.454-9.431-8.4-31.123-8.3,31.123Z" transform="translate(64.767 0.325)"/>
+        <path id="패스_13901" data-name="패스 13901" class="cls-1" d="M303.177,10.992H286.192V66.26H273.641V10.992H256.089v-9.9H304.5Z" transform="translate(76.757 0.325)"/>
+        <path id="패스_13902" data-name="패스 13902" class="cls-1" d="M336.571,10.332H312.508v18.2h20.949v9.243H312.508V56.923H338.27v9.338H300.052V1.089h37.84Z" transform="translate(89.934 0.325)"/>
+      </g>
+    </g>
+  </g>
+</svg>

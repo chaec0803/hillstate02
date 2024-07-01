@@ -1,6 +1,6 @@
 import styles from './Caution.module.css';
 
-function Caution() {
+function DesignCaution() {
   return (
     <div className={styles.caution}>
       <p>
@@ -22,4 +22,4 @@ function Caution() {
   );
 }
 
-export default Caution;
+export default DesignCaution;

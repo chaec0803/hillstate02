@@ -1,6 +1,7 @@
-import ImageSlider from 'components/ImageSlider';
+import ImageSlider from 'components/home/ImageSlider';
 import Call from 'assets/images/call.svg';
-import HomeBanner from 'components/HomeBanner';
+import HomeBanner from 'components/home/HomeBanner';
+import PHONE_NUMBER from 'const/phoneNum';
 import styles from './HomeVisual.module.css';
 
 function HomeVisual() {
@@ -17,7 +18,7 @@ function HomeVisual() {
         <p className={styles.flag}>분양중</p>
         <div className={`${styles.phone} white`}>
           <img alt="문의전화번호" className={styles.call_icon} src={Call} />
-          <p className={`${styles.phone_num} white`}>042-537-9131</p>
+          <p className={`${styles.phone_num} white`}>{PHONE_NUMBER}</p>
         </div>
       </div>
 
