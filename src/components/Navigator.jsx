@@ -1,7 +1,12 @@
 import { Link } from 'react-router-dom';
 import NAVIGATOR from 'const/navigator.js';
 import { useState } from 'react';
-import { GOODS_DEPTH, PARCEL_DEPTH } from 'const/depth';
+import {
+  BASIC_DEPTH,
+  GOODS_DEPTH,
+  PARCEL_DEPTH,
+  SPACE_DEPTH,
+} from 'const/depth';
 import styles from './Navigator.module.css';
 
 function Navigator({ isHome = false }) {
@@ -28,10 +33,14 @@ function Navigator({ isHome = false }) {
                   <Link
                     to={item.to}
                     onMouseEnter={() => {
-                      if (item.title === '분양안내') {
+                      if (item.title === '기본정보') {
+                        setCurrentPage(BASIC_DEPTH);
+                      } else if (item.title === '분양안내') {
                         setCurrentPage(PARCEL_DEPTH);
                       } else if (item.title === '상품안내') {
                         setCurrentPage(GOODS_DEPTH);
+                      } else if (item.title === '공간안내') {
+                        setCurrentPage(SPACE_DEPTH);
                       } else {
                         setCurrentPage(null);
                       }
@@ -44,7 +53,9 @@ function Navigator({ isHome = false }) {
             </ul>
           </nav>
           <div className={styles.round}>
-            <p>빠른상담문의</p>
+            <p>
+              <a href="https://naver.me/GgW6tWP7">빠른상담신청</a>
+            </p>
           </div>
         </div>
       </div>

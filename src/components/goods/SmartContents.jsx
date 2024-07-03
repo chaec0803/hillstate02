@@ -13,21 +13,18 @@ function SmartContents() {
         titleColor="#127D7F"
         subTitle="첨단, 디자인, 맞춤"
         items={LIFE}
-        slidesToShow={3}
       />
       <SmartSlider
         title="VARIOUS"
         titleColor="#3978BB"
         subTitle="소통, 건강"
         items={VARIOUS}
-        slidesToShow={2}
       />
       <SmartSlider
         title="COMFORTABLE"
         titleColor="#CE686C"
         subTitle="편리, 안전, 보건, 위생"
         items={COMFORTABLE}
-        slidesToShow={2}
       />
       <SmartCaution />
     </ContentsLayout>

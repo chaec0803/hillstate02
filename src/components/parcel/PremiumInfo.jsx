@@ -8,10 +8,7 @@ function PremiumInfo({ info }) {
         <p className={styles.num}>{info.num}</p>
         <p className={styles.premium}>{info.premium}</p>
         <p className={styles.title}>{info.title}</p>
-        <p
-          className={styles.description}
-          dangerouslySetInnerHTML={{ __html: info.description }}
-        />
+        <p className={styles.description}>{info.description}</p>
       </div>
       <div className={styles.right}>
         <img src={bg} alt="background" className={styles.back} />

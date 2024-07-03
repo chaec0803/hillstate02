@@ -16,8 +16,9 @@
 }
 
 .sub_content .counseling p {
-    font-size: 60px;
+    font-size: 3.75rem;
     color: #ffffff;
+    text-align: center;
 }
 
 .step_box {
@@ -69,4 +70,30 @@
     font-size: 12px;
     color: #777777;
     line-height: 15px;
+}
+
+@media (max-width: 1775px) {
+    .sub_content {
+        flex-direction: column;
+        position: static;
+    }
+
+    .step_box {
+        width: 336px;
+        border: 1px solid #dddddd;
+    }
+
+    .step_box .step p {
+        white-space: normal;
+    }
+}
+
+@media (max-width: 620px) {
+    .sub_content .counseling p {
+        row-gap: 10px;
+    }
+
+    .step_box {
+        width: 328.56px;
+    }
 }

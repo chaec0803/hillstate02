@@ -1,5 +1,5 @@
 .title {
-    font-size: 56px;
+    font-size: 3.5rem;
     background-color: #f6f6f6;
     padding: 40px 50px;
 }
@@ -7,4 +7,9 @@
 .type {
     margin-top: 50px;
     font-size: 28px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
 }

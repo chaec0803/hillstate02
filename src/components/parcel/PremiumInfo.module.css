@@ -48,3 +48,13 @@
     right: 0;
     transform: translate(-50%, 0);
 }
+
+@media (max-width: 625px) {
+    .box {
+        padding: 20px;
+    }
+
+    .right img {
+        display: none;
+    }
+}

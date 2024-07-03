@@ -1,6 +1,6 @@
 .card {
-    display: inline-block;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     height: 500px;
     text-align: center;
     position: relative;
@@ -42,4 +42,8 @@
 .card .card_inner p {
     font-size: 18px;
     color: #727272;
+}
+
+@media (max-width: 1200px) {
+    
 }

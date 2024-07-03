@@ -1,12 +1,9 @@
-import { useState } from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
-import Modal from 'react-modal';
 import ReactDOM from 'react-dom';
 import Policy from 'components/policy';
 import styles from './Register.module.css';
 
 function Register() {
-  const [modalIsOpen, setModalIsOpen] = useState(false);
   const openPrivacyPolicy = () => {
     const newWindow = window.open('', '', 'width=600,height=400');
 
@@ -50,17 +47,6 @@ function Register() {
         </div>
       </div>
       <div className={styles.register_btn}>관심고객 등록하기</div>
-      <Modal
-        isOpen={modalIsOpen}
-        onRequestClose={() => setModalIsOpen(false)}
-        contentLabel="Privacy Policy"
-      >
-        <h2>Privacy Policy</h2>
-        <div>Here is the privacy policy content...</div>
-        <button type="button" onClick={() => setModalIsOpen(false)}>
-          Close
-        </button>
-      </Modal>
     </div>
   );
 }

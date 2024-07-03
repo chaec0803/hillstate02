@@ -16,3 +16,9 @@
     color: #000;
     border-bottom: 2px solid #000;
 }
+
+@media (max-width: 886px) {
+    .space {
+        overflow-x: scroll;
+    }
+}

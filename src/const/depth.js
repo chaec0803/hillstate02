@@ -1,3 +1,10 @@
+export const BASIC_DEPTH = [
+  {
+    title: '입지환경',
+    to: '/basic',
+  },
+];
+
 export const PARCEL_DEPTH = [
   {
     title: '프리미엄',
@@ -20,5 +27,11 @@ export const GOODS_DEPTH = [
   {
     title: '스마트시스템',
     to: '/goods/smart',
+  },
+];
+export const SPACE_DEPTH = [
+  {
+    title: '평면안내',
+    to: '/space',
   },
 ];

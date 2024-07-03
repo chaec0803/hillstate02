@@ -4,7 +4,7 @@
     border-top: 1px solid #dddddd;
     border-bottom: 1px solid #dddddd;
     padding: 20px 10px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -37,11 +37,15 @@
 
 .register .register_btn {
     white-space: nowrap;
-    color: #ffffff;
     padding: 20px 60px;
     border-radius: 30px;
     font-size: 25px;
     background-color: #7d1919;
+    cursor: pointer;
+}
+
+.register .register_btn a {
+    color: #ffffff;
 }
 
 .register .check {
@@ -66,4 +70,10 @@
     height: 10px;
     border: 1px solid #7d1919;
     appearance: auto;
+}
+
+@media (max-width: 1775px) {
+    .register {
+        margin: 20px;
+    }
 }

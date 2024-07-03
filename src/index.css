@@ -66,6 +66,9 @@ body {
     color: #000 !important;
 }
 
+.slick-slide {
+    position: relative;
+}
 
 .smart_slider .slick-slide {
     display: flex !important;
@@ -75,4 +78,31 @@ body {
     box-sizing: border-box;
     padding: 0 5px;
     max-width: 540px;
+}
+
+.home .slick-slide:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 6px);
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99999;
+}
+
+html {
+    font-size: 16px;
+}
+
+@media (max-width: 1020px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 640px) {
+    html {
+        font-size: 10px;
+    }
 }

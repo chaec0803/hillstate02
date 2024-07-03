@@ -42,12 +42,9 @@ function SpaceContents() {
       <SpaceNav current={currentSpace} setCurrent={setCurrentSpace} />
       <h3 className={styles.title}>{currentSpace}</h3>
       <p className={styles.type}>기본형 / 확장형</p>
-      <img
-        src={getCurrentSpaceImage()}
-        alt={currentSpace}
-        width="100%"
-        height="100%"
-      />
+      <div className={styles.img}>
+        <img src={getCurrentSpaceImage()} alt={currentSpace} width="100%" />
+      </div>
       <Caution />
     </ContentsLayout>
   );

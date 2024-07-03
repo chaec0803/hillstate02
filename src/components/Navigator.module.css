@@ -1,3 +1,15 @@
+@keyframes blinking {
+    0% {
+        background-color: #7d1919;
+    }
+    50% {
+        background-color: #c98e0d;
+    }
+    100% {
+        background-color: #7d1919;
+    }
+}
+
 .header {
     position: absolute;
     top: 0;
@@ -16,11 +28,11 @@
 }
 
 .header_wrap {
-    height: 85px;
+    height: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1600px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -31,7 +43,7 @@
 .logo {
     width: 300px;
     text-align: left;
-    font-size: 26px;
+    font-size: 1.625rem;
 }
 
 .logo p {
@@ -47,6 +59,7 @@
 }
 
 .round {
+    animation: blinking 2s infinite;
     padding: 10px 10px;
     border-radius: 10px;
     background-color: #7d1919;
@@ -55,9 +68,12 @@
     margin-left: 30px;
     justify-content: center;
     align-items: center;
-    color: #ffffff;
     cursor: pointer;
     font-size: 20px;
+}
+
+.round a {
+    color: #ffffff;
 }
 
 nav ul {
@@ -71,6 +87,11 @@ nav ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    gap: 20px;
+}
+
+.light.mobile {
+    align-items: end;
 }
 
 nav > ul > li {
@@ -83,7 +104,7 @@ nav > ul > li a:hover {
 
 nav ul li a {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 nav ul li a:hover {
@@ -135,4 +156,16 @@ nav ul li a:hover {
     line-height: 93px;
     text-align: center;
     background: #a00f16;
+}
+
+@media (max-width: 1020px) {
+    .header_wrap {
+        height: 70px;
+        padding: 0 20px;
+        align-items: end;
+    }
+
+    .logo p {
+        margin-bottom: 5px;
+    }
 }
