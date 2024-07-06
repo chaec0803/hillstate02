@@ -54,7 +54,13 @@ function Navigator({ isHome = false }) {
           </nav>
           <div className={styles.round}>
             <p>
-              <a href="https://naver.me/GgW6tWP7">빠른상담신청</a>
+              <a
+                href="https://naver.me/GgW6tWP7"
+                target="_blank"
+                rel="noreferrer"
+              >
+                빠른상담신청
+              </a>
             </p>
           </div>
         </div>

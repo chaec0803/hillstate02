@@ -6,16 +6,16 @@ function HomeBanner() {
   return (
     <div className={styles.sub_content}>
       <div className={styles.counseling}>
-        <p>
-          모델하우스
-          <br />
-          방문예약
-        </p>
-        <p>
-          <a className="white" href="tel:1522-9022">
-            {PHONE_NUMBER}
-          </a>
-        </p>
+        <a href="tel:1522-9022">
+          <p>
+            모델하우스
+            <br />
+            방문예약
+          </p>
+          <p>
+            <p className="white">{PHONE_NUMBER}</p>
+          </p>
+        </a>
       </div>
       {BANNER.map((item) => (
         <div className={styles.step_box} key={item.num}>

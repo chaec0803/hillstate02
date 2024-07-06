@@ -76,14 +76,12 @@
     height: 50px;
 }
 
-.main_visual_text_wrap .phone_num {
-    font-size: 50px;
-    animation: blinking 2s infinite;
-    font-weight: bold;
-}
 
 .main_visual_text_wrap .phone_num a {
     color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+    animation: blinking 2s infinite;
 }
 
 .image {
