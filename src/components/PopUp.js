@@ -1,4 +1,4 @@
-import pop01 from 'assets/images/pop01.gif';
+import pop02 from 'assets/images/pop02.jpg';
 import styles from './PopUp.module.css';
 import { setCookie } from '../util/cookie';
 
@@ -8,7 +8,7 @@ export default function PopUp({ setIsShow }) {
       {/* eslint-disable-next-line jsx-a11y/control-has-associated-label */}
       <a target="_blank" href="https://naver.me/GgW6tWP7" rel="noreferrer">
         <div className="flex">
-          <img src={pop01} alt="이벤트" />
+          <img src={pop02} alt="이벤트" />
         </div>
       </a>
       <ul className={styles.close_choice}>

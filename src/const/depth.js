@@ -14,6 +14,10 @@ export const PARCEL_DEPTH = [
     title: '동·호수배치도',
     to: '/parcel/layout',
   },
+  {
+    title: '단지배치도',
+    to: '/parcel/estate',
+  },
 ];
 export const GOODS_DEPTH = [
   {
