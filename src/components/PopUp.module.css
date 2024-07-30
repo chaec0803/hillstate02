@@ -1,0 +1,33 @@
+.pop {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+}
+
+.pop img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.pop .close_choice {
+    display: flex;
+    align-items: center;
+    border: 1px solid #dddddd;
+    background-color: #fff;
+}
+
+.pop .close_choice li {
+    text-align: center;
+    width: 50%;
+    padding: 10px 5px;
+    line-height: 1.6;
+    cursor: pointer;
+    color: #34343b;
+    background-color: #fff;
+}
+
+.pop .close_choice li:first-child {
+    border-right: 1px solid #d9d9d9;
+}

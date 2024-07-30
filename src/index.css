@@ -95,6 +95,10 @@ html {
     font-size: 16px;
 }
 
+.flex {
+    display: flex;
+}
+
 @media (max-width: 1020px) {
     html {
         font-size: 12px;
